@@ -1,0 +1,5 @@
+<aura:event type="APPLICATION" description="Event template">
+    <aura:attribute name="opEvt1" type="Integer"/>
+    <aura:attribute name="simboloEvt" type="String"/>
+    <aura:attribute name="opEvt2" type="Integer"/>
+</aura:event>

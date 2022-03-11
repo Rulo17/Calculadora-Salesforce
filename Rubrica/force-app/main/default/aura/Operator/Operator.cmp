@@ -1,0 +1,15 @@
+<aura:component>
+    <aura:handler event="c:tecladoEvent" action="{!c.getButtonValue}"/>
+    <aura:handler event="c:deleteEvent" action="{!c.resetValues}"/>
+
+    <aura:attribute name="selecInput1" type="Integer"/>
+    <aura:attribute name="selecInput2" type="Integer"/>
+    <aura:attribute name="selecSimbolo" type="String"/>
+    <aura:attribute name="targetInput" type="String"/>
+
+    <input type="number" style="width:80px; text-align:center" value="{!v.selecInput1}" aura:id="op1" id="1" onclick="{!c.inputTarget}"/>
+    <input type="text" style="width:50px; text-align:center" maxlength="1" value="{!v.selecSimbolo}" aura:id="simbolo" id="3" onclick="{!c.inputTarget}"/>
+    <input type="number" style="width:80px; text-align:center" value="{!v.selecInput2}" aura:id="op2" id="2" onclick="{!c.inputTarget}"/>
+    <input type="button" style="width:50px; text-align:center" value="=" onclick="{!c.sendInputValues}"/>
+    <input type="hidden" style="width:50px; text-align:center" value="{!v.targetInput}" aura:id="inputSelec"/>
+</aura:component>

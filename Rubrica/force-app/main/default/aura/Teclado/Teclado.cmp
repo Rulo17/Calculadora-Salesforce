@@ -1,0 +1,28 @@
+<aura:component>
+    <table>
+        <tr>
+            <td><input type="button" value="7" style="width:50px" onclick="{!c.selectedButton}" id="7"/></td>
+            <td><input type="button" value="8" style="width:50px" onclick="{!c.selectedButton}" id="8"/></td>
+            <td><input type="button" value="9" style="width:50px" onclick="{!c.selectedButton}" id="9"/></td>
+            <td><input type="button" value="x" style="width:50px" onclick="{!c.selectedButton}" id="x"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" style="width:50px" onclick="{!c.selectedButton}" id="4"/></td>
+            <td><input type="button" value="5" style="width:50px" onclick="{!c.selectedButton}" id="5"/></td>
+            <td><input type="button" value="6" style="width:50px" onclick="{!c.selectedButton}" id="6"/></td>
+            <td><input type="button" value="-" style="width:50px" onclick="{!c.selectedButton}" id="-"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" style="width:50px" onclick="{!c.selectedButton}" id="1"/></td>
+            <td><input type="button" value="2" style="width:50px" onclick="{!c.selectedButton}" id="2"/></td>
+            <td><input type="button" value="3" style="width:50px" onclick="{!c.selectedButton}" id="3"/></td>
+            <td><input type="button" value="+" style="width:50px" onclick="{!c.selectedButton}" id="+"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="^" style="width:50px" onclick="{!c.selectedButton}" id="^"/></td>
+            <td><input type="button" value="0" style="width:50px" onclick="{!c.selectedButton}" id="0"/></td>
+            <td><input type="button" value="%" style="width:50px" onclick="{!c.selectedButton}" id="%"/></td>
+            <td><input type="button" value="/" style="width:50px" onclick="{!c.selectedButton}" id="/"/></td>
+        </tr>
+    </table>
+</aura:component>	

@@ -1,0 +1,11 @@
+<aura:application>
+    <br/>
+    <h1>Calculadora</h1>
+    <br/>
+    <c:Operator/><c:Result/>
+    <br/>
+    <br/>
+    <c:Teclado/>
+    <br/>
+    <c:BotonBorrado/>
+</aura:application>	

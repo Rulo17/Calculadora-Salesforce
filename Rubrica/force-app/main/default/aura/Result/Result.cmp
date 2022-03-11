@@ -1,0 +1,8 @@
+<aura:component>
+    <aura:handler event="c:opEvent" action="{!c.calculate}"/>
+    <aura:handler event="c:deleteEvent" action="{!c.resetValues}"/>
+
+    <aura:attribute name="total" type="Integer"/>
+    
+    <input type="text" value="{!v.total}" style="width:80px; text-align:center"/>
+</aura:component>	
